@@ -34,10 +34,23 @@ nav img {
   width: 10%;
 }
 
-h2 {
-  text-shadow: 1px 1px 1px rgba(0, 255, 0, .5);
+h1 {
+  background: linear-gradient(to right, red, white);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
+}
+
+a {
+  background: linear-gradient(to right, blue 10%, white 100%);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
 }
 
 a:hover {
-  color: rgb(0, 0, 0) 
+  background: linear-gradient(to right, red 10%, white 100%);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
 }

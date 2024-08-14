@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS users;
+CREATE DATABASE logins;
+CREATE TABLE users(
+  id    CHAR(32) NOT NULL,
+  name  VARCHAR NOT NULL,
+  email VARCHAR NOT NULL,
+);
+
